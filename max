@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	int d,e;//d=1 e=2 3
+	cin>>a;
+	cin>>b;
+	cin>>c;
+	if(a==b)
+	{
+		d=a;
+		e=b;
+	}
+	else
+	{
+		if(a>b)
+		{
+			d=a;
+			e=b;
+		}
+		else//a<b
+		{
+			e=a;
+			d=b;
+		}
+	}
+	if(d==c)
+	{
+		cout<<d;
+	}
+	else
+	{
+		if(d>c)
+		{
+			cout<<d;
+		}
+		else
+		{
+			cout<<c;
+		}
+	}
+}
